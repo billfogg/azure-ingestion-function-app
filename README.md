@@ -1,6 +1,15 @@
 # azure-ingestion-function-app
 
 ## Overview
+This Azure Function App takes incoming PGP encrypted Zip files and un-encrypts them and extracts them to the destination Azure Data Lake storage location.
+
+It is triggered by EventGrid messages that are generated from Storage Blob activities.
+
+It uses EventGrid event messages instead of direct Storage Blob event messages because blob events are associated with specific containers and would require separate Function Apps for each blob container.
+
+Connections to the storage blobs uses the function apps system assigned managed identity.
+
+The PGP key is stored in Azure Key Vault.
 
 ## Coding References
 
