@@ -13,6 +13,12 @@ The PGP key is stored in Azure Key Vault.
 
 ## Coding References
 
+### Visual Studio Code
+
+- [Install Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=localinstall%2Cwindows%2Cbrew) - "powershell -ex AllSigned -c "Invoke-RestMethod 'https://aka.ms/install-azd.ps1' | Invoke-Expression""
+- [Quickstart: Create a C# function in Azure using Visual Studio Code](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp?tabs=in-process)
+- Install the Storage Blobs and Queues extension - "dotnet add package Microsoft.Azure.WebJobs.Extensions.Storage"
+
 ### Zip
 
 [Unzip Example](https://www.frankysnotes.com/2019/02/how-to-unzip-automatically-your-files.html) and [Conversion Guide](https://elcamino.cloud/articles/2020-03-30-azure-storage-blobs-net-sdk-v12-upgrade-guide-and-tips.html)
