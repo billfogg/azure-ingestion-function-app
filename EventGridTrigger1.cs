@@ -21,7 +21,7 @@ namespace Company.Function
         {
             log.LogInformation(eventGridEvent.Data.ToString());
 
-            string destinationUrl = Environment.GetEnvironmentVariable("destinationUrl"); // "https://trellancecuonepoc.blob.core.windows.net/"
+            string destinationUrl = Environment.GetEnvironmentVariable("destinationUrl");
             string destinationContainer = Environment.GetEnvironmentVariable("destinationContainer");
 
             try
